@@ -21,7 +21,7 @@
 
 ## HOW TO INSTALL THIS FORK
 
-1.  Start Packager
+1.  Installing Packages
 
 ```
 For (app, firestore, functions, messaging, ect..)
