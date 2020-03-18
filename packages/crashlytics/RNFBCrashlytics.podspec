@@ -41,7 +41,7 @@ Pod::Spec.new do |s|
   s.source_files        = 'ios/**/*.{h,m}'
   s.dependency          'React'
   s.dependency          'Fabric', fabric_sdk_version
-  s.dependency          'Firebase/Core', firebase_sdk_version
+  s.dependency          'Firebase/CoreOnly', firebase_sdk_version
   s.dependency          'Crashlytics', crashlytics_sdk_version
   s.dependency          'RNFBApp'
   s.static_framework    = false
