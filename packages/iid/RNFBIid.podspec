@@ -23,7 +23,7 @@ Pod::Spec.new do |s|
   s.ios.deployment_target = "9.0"
   s.source_files        = 'ios/**/*.{h,m}'
   s.dependency          'React'
-  s.dependency          'Firebase/Core', firebase_sdk_version
+  s.dependency          'Firebase/CoreOnly', firebase_sdk_version
   s.dependency          'RNFBApp'
   s.static_framework    = false
 end
